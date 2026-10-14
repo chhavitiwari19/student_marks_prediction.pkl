@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 # load the trained ml model
-with open("model.pkl","rb") as file:
+with open("Student_marks_prediction.pkl","rb") as file:
   model = pickle.load(file)
 # website title
 st.title("student marks prediction")
